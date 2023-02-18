@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Poppins:wght@400;500&display=swap');
 
 body {
-    margin: 0;
+   
     padding: 0;
     background-color: #D6EFC7;
+
+        overflow: hidden;
+        overflow-y: visible;
+        margin: 0 ;
+        width: 1028px;
+        height: 569px;
 }
 
 
