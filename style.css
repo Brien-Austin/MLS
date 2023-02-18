@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Poppins:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D6EFC7;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+    background-color: #194E48;
+}
+
+.logo {
+    padding: 0px 10px;
+    font-size: 10px;
+    color: #FBD686;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin: 0 10px;
+    font-size: 10px;
+}
+
+.navigation li a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #FBD686;
+    font-size: 10px;
+    height: 15px;
+    width: 40px;
+
+    padding: 0px 10px;
+    border-radius: 35px;
+    transition: all 0.5s ease;
+}
+
+.navigation li a:hover {
+
+    color: #194E48;
+    background-color: #D6EFC7;
+}
